@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const path = require('path');
+// const path = require('path');
 
 process.on('uncaughtException', (err) => {
   console.log('UNCAUGHT EXCEPTION ❗️', err.name, err.message, err);
