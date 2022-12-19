@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "5c8a355b14eb5c17645c9109",
+    "name": "Wallet #1",
+    "type": "кошельки и картхолдеры",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    "price": 1000,
+    "imageCover": "wallet-1-cover.jpg",
+    "images": ["wallet-1-1.jpg", "wallet-1-2.jpg"]
+  },
+  {
+    "_id": "5c8a22c62f8fb814b56fa18b",
+    "name": "Wallet #2",
+    "type": "кошельки и картхолдеры",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    "price": 1100,
+    "imageCover": "wallet-2-cover.jpg",
+    "images": ["wallet-2-1.jpg", "wallet-2-2.jpg"]
+  },
+  {
+    "_id": "5c8a1f4e2f8fb814b56fa185",
+    "name": "Wallet #3",
+    "type": "кошельки и картхолдеры",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    "price": 900,
+    "imageCover": "wallet-3-cover.jpg",
+    "images": ["wallet-3-1.jpg", "wallet-3-2.jpg"]
+  }
+]
