@@ -15,7 +15,11 @@ const globalErrorHandler = require('./controllers/errorController');
 
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: 'https://leather-store-server.netlify.app/',
+  })
+);
 
 //Set security http headers
 app.use(helmet());
