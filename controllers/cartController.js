@@ -182,3 +182,5 @@ exports.emptyCart = catchAsync(async (req, res, next) => {
     data: { data: null },
   });
 });
+
+exports.updateCart = factory.updateOne(Cart);

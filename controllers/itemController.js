@@ -34,7 +34,7 @@ exports.resizeImages = catchAsync(async (req, res, next) => {
     .toFormat('jpeg')
     .jpeg({ quality: 90 })
     .toFile(
-      `leather-store-frontend/src/assets/img/items/${req.body.imageCover}`
+      `../leather-store-frontend/src/assets/img/items/${req.body.imageCover}`
     );
 
   //images
@@ -47,7 +47,7 @@ exports.resizeImages = catchAsync(async (req, res, next) => {
         .resize(500, 500)
         .toFormat('jpeg')
         .jpeg({ quality: 90 })
-        .toFile(`frontend/src/assets/img/items/${filename}`);
+        .toFile(`../leather-store-frontend/src/assets/img/items/${filename}`);
 
       req.body.images.push(filename);
     })
