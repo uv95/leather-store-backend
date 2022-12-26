@@ -150,8 +150,9 @@ exports.deleteItem = catchAsync(async (req, res, next) => {
   }
 });
 
-exports.reduceQuantity = catchAsync(async (req, res, next) => {
+exports.changeQuantity = catchAsync(async (req, res, next) => {
   const { cartItemId } = req.params;
+  const quantity = req.body.quantity;
 
   let cart = await Cart.findOne({ user: req.user.id });
   const itemIndex = cart.items.findIndex(
@@ -160,8 +161,8 @@ exports.reduceQuantity = catchAsync(async (req, res, next) => {
 
   if (itemIndex > -1) {
     let item = cart.items[itemIndex];
-    item.total -= item.price;
-    item.quantity -= 1;
+    item.quantity = quantity;
+    item.total = item.price * quantity;
     if (item.total < 0) item.total = 0;
     if (item.quantity === 0) cart.items.splice(itemIndex, 1);
     cart = await cart.save();
